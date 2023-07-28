@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum exercitationem id autem rem cum         doloribus non soluta ea nesciunt quidem quo, et, placeat, dicta ducimus. Magni eligendi facilis corporis    incidunt?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur placeat sapiente a, beatae harum iure. Enim error molestiae iure ullam esse atque! Asperiores optio, et corporis eaque ut officia labore!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta tempora recusandae aspernatur aliquam! Consequuntur ab et blanditiis itaque aliquam, asperiores dolor doloremque dolorem alias obcaecati dolores iure eveniet at!
+    </p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="iframe002.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ea repellat placeat sapiente eveniet optio! Similique sequi dolor recusandae quis fugit rerum quas dolores quo laudantium perferendis deleniti, sapiente quos?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit dolores sint aliquid maxime alias quas, molestiae vero? Deleniti laborum praesentium vitae, aliquid et alias odit! Laudantium quo consectetur quis vero?
+    </p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>">
+        
+        <p>Infelizmente seu navegador não é compátivel com isso!</p>
+    </iframe>
+</body>
+</html>
